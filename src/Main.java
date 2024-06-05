@@ -55,7 +55,7 @@ public class Main {
         }
  //5
         System.out.println("5.");
-        age = 15;
+        age = 6;
         System.out.printf("Если возраст ребенка равен %d, то ему ", age);
         if (age <= 5) {
             System.out.println("нельзя кататься на аттракционе.");
