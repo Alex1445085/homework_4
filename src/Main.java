@@ -24,6 +24,17 @@ public class Main {
         else {
             System.out.println("ов, можно идти без шапки");
         }
+ // 3
+        System.out.println("3.");
+        int vehicleSpeed = 65;
+        System.out.printf("Если скорость %d, то ", vehicleSpeed);
+        if (vehicleSpeed <= 60) {
+            System.out.println("можно ездить спокойно.");
+        }
+        else {
+            System.out.println("придется заплатить штраф.");
+        }
+
 
     }
 }
