@@ -1,7 +1,8 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
- //1
+
+ // 1
         System.out.println("1.");
         int age = 17;
         System.out.print("Если возраст человека равен " + age + ", то ");
@@ -11,6 +12,7 @@ public class Main {
         if (age < 18) {
             System.out.println("он не достиг совешеннолетия, надо немного подождать");
         }
+
  // 2
         System.out.println("2.");
         int temperature = 20;
@@ -24,6 +26,7 @@ public class Main {
         else {
             System.out.println("ов, можно идти без шапки");
         }
+
  // 3
         System.out.println("3.");
         int vehicleSpeed = 65;
@@ -34,13 +37,11 @@ public class Main {
         else {
             System.out.println("придется заплатить штраф.");
         }
+
  // 4
         System.out.println("4.");
         age = 25;
         System.out.printf("Если возраст человека равен %d, то ", age);
-        if (age < 2) {
-            System.out.println("ему можно ничего не делать, за него все сделают другие.");
-        }
         if (age >= 2 && age <= 6) {
             System.out.println("ему нужно ходить в детский сад.");
         }
@@ -53,7 +54,8 @@ public class Main {
         if (age > 24) {
             System.out.println("ему пора ходить на работу.");
         }
- //5
+
+ // 5
         System.out.println("5.");
         age = 6;
         System.out.printf("Если возраст ребенка равен %d, то ему ", age);
@@ -66,7 +68,8 @@ public class Main {
         if (age > 14) {
             System.out.println(" можно кататься на аттракционе без сопровождения взрослого");
         }
- //6
+
+ // 6
         System.out.println("6.");
         int vanCapacity = 102, seatPlace = 60, standPlace = vanCapacity - seatPlace;
         int passenger = 69;
@@ -76,26 +79,24 @@ public class Main {
         else {
             if (passenger < seatPlace) {
                 int i = seatPlace - passenger;
-                System.out.println("Осталось " + i + " сидячих мест и все стоячие.");
+                System.out.println("Осталось " + i + " сидячих мест.");
             }
             else {
                 int i = vanCapacity - passenger;
-                System.out.println("Сидячих мест нет, осталось " + i + " стоячих мест.");
+                System.out.println("Осталось " + i + " стоячих мест.");
             }
         }
- //7
+
+ // 7
         System.out.println("7.");
         int one = 1906;
         int two = 850;
         int three = 96;
-        int highValue;
-        if (one > two) {
-            highValue = one;
-        }
-        else {
+        int highValue = one;
+        if (highValue < two) {
             highValue = two;
         }
-        if (three > highValue) {
+        if (highValue < three ) {
             highValue = three;
         }
         System.out.printf("Наибольшее значение из чисел %d, %d, %d равно %d", one, two, three, highValue);
