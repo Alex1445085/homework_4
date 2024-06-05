@@ -66,5 +66,22 @@ public class Main {
         if (age > 14) {
             System.out.println(" можно кататься на аттракционе без сопровождения взрослого");
         }
+ //6
+        System.out.println("6.");
+        int vanCapacity = 102, seatPlace = 60, standPlace = vanCapacity - seatPlace;
+        int passenger = 69;
+        if (passenger >= vanCapacity) {
+            System.out.println("Мест нет, вагон забит полностью.");
+        }
+        else {
+            if (passenger < seatPlace) {
+                int i = seatPlace - passenger;
+                System.out.println("Осталось " + i + " сидячих мест и все стоячие.");
+            }
+            else {
+                int i = vanCapacity - passenger;
+                System.out.println("Сидячих мест нет, осталось " + i + " стоячих мест.");
+            }
+        }
     }
 }
