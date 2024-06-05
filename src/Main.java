@@ -34,6 +34,25 @@ public class Main {
         else {
             System.out.println("придется заплатить штраф.");
         }
+ // 4
+        System.out.println("4.");
+        age = 25;
+        System.out.printf("Если возраст человека равен %d, то ", age);
+        if (age < 2) {
+            System.out.println("ему можно ничего не делать, за него все сделают другие.");
+        }
+        if (age >= 2 && age <= 6) {
+            System.out.println("ему нужно ходить в детский сад.");
+        }
+        if (age >= 7 && age <= 17 ) {
+            System.out.println("ему нужно ходить в школу.");
+        }
+        if (age >= 18 && age <= 24) {
+            System.out.println("его место в университете.");
+        }
+        if (age > 24) {
+            System.out.println("ему пора ходить на работу.");
+        }
 
 
     }
