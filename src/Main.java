@@ -83,5 +83,21 @@ public class Main {
                 System.out.println("Сидячих мест нет, осталось " + i + " стоячих мест.");
             }
         }
+ //7
+        System.out.println("7.");
+        int one = 1906;
+        int two = 850;
+        int three = 96;
+        int highValue;
+        if (one > two) {
+            highValue = one;
+        }
+        else {
+            highValue = two;
+        }
+        if (three > highValue) {
+            highValue = three;
+        }
+        System.out.printf("Наибольшее значение из чисел %d, %d, %d равно %d", one, two, three, highValue);
     }
 }
