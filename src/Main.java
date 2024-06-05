@@ -53,7 +53,18 @@ public class Main {
         if (age > 24) {
             System.out.println("ему пора ходить на работу.");
         }
-
-
+ //5
+        System.out.println("5.");
+        age = 15;
+        System.out.printf("Если возраст ребенка равен %d, то ему ", age);
+        if (age <= 5) {
+            System.out.println("нельзя кататься на аттракционе.");
+        }
+        if (age > 5 && age <= 14) {
+            System.out.println("можно кататься на аттракционе в сопровождении взрослого");
+        }
+        if (age > 14) {
+            System.out.println(" можно кататься на аттракционе без сопровождения взрослого");
+        }
     }
 }
